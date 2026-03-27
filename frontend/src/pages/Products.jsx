@@ -57,7 +57,7 @@ const Products = () => {
         setFilterProducts(fpCopy.sort((a,b)=>(a.price - b.price)));
         break;
       case 'high-low':
-        setFilterProducts = (fpCopy.sort((a,b)=>(b.price - a.price)));
+        setFilterProducts(fpCopy.sort((a,b)=>(b.price - a.price)));
         break;
 
       default:
