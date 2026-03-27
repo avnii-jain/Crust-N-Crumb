@@ -7,8 +7,8 @@ import dropdown_icon from './dropdown_icon.webp'
 import hero_img from './hero_img.jpg'
 import hero_img1 from './hero_img1.jpg'
 import hero_img2 from './hero_img2.jpg'
-import hero_img3 from './hero_img3.jpeg'
-import hero_img4 from './hero_img4.png'
+import hero_img3 from './hero_img3.jpg'
+import hero_img4 from './hero_img4.jpg'
 import hero_img5 from './hero_img5.webp'
 import exchange_icon from './exchange_icon.png'
 import quality_icon from './quality_icon.jpg'
@@ -56,20 +56,20 @@ const assets = {
 
 export const products = [
     {
-        id: "aaaaa",
-        name: "Chocolate",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aaa",
+        name: "Chocolate Truffle Cake",
+        description: "Rich chocolate indulgence",
         price: 1000,
-        image: [hero_img1, hero_img2],
+        image: [hero_img1],
         category: "Eggless",
         subCategory: "Chocolate",
         sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
         bestseller: true
     },
     {
-        id: "aaaab",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aab",
+        name: "Strawberry Delight Cake",
+        description: "Fresh fruity sweetness",
         price: 400,
         image: [hero_img2],
         category: "Egg",
@@ -78,9 +78,9 @@ export const products = [
         bestseller: false
     },
     {
-        id: "aaaac",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aac",
+        name: "Classic Vanilla Cake",
+        description: "Lighty creamy classic",
         price: 300,
         image: [hero_img3],
         category: "Eggless",
@@ -89,9 +89,9 @@ export const products = [
         bestseller: true
     },
     {
-        id: "aaaad",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aad",
+        name: "Pineapple Cream Cake",
+        description: "Tropical juicy flavor",
         price: 350,
         image: [hero_img4],
         category: "Eggless",
@@ -100,9 +100,9 @@ export const products = [
         bestseller: false
     },
     {
-        id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aae",
+        name: "Red Velvet Cake",
+        description: "Smooth velvety richness",
         price: 450,
         image: [hero_img5],
         category: "Eggless",
@@ -111,9 +111,9 @@ export const products = [
         bestseller: true
     },
     {
-        id: "aaaaf",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aaf",
+        name: "Mango Magic Cake",
+        description: "Sweet mango bliss",
         price: 600,
         image: [hero_img3],
         category: "Eggless",
@@ -122,9 +122,9 @@ export const products = [
         bestseller: false
     },
     {
-        id: "aaaag",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aag",
+        name: "Choco Caramel Cake",
+        description: "Gooey caramel chocolate",
         price: 550,
         image: [hero_img3],
         category: "Eggless",
@@ -133,9 +133,9 @@ export const products = [
         bestseller: true
     },
     {
-        id: "aaaah",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aah",
+        name: "ButterScotch Crunch Cake",
+        description: "Crunchy sweet delight",
         price: 500,
         image: [hero_img3],
         category: "Eggless",
@@ -144,24 +144,101 @@ export const products = [
         bestseller: false
     },
     {
-        id: "aaaai",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aai",
+        name: "Oreo Cream Cake",
+        description: "Cookies creamy goodness",
         price: 700,
         image: [hero_img3],
         category: "Eggless",
-        subCategory: "chocolate",
+        subCategory: "Chocolate",
         sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
         bestseller: false
     },
     {
-        id: "aaaaj",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+        id: "aaj",
+        name: "Ferrero Rocher Cake",
+        description: "Nutty chocolate luxury",
         price: 750,
         image: [hero_img3],
         category: "Eggless",
-        subCategory: "chocolate",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: true
+    },
+    {
+        id: "aak",
+        name: "Lemon Zest Cake",
+        description: "Tangy citrus freshness",
+        price: 750,
+        image: [hero_img3],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: true
+    },
+    {
+        id: "aal",
+        name: "Black Forest Cake",
+        description: "Chocolate cherry delight",
+        price: 750,
+        image: [hero_img3],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: true
+    },
+    {
+        id: "aam",
+        name: "Blueberry Bliss Cake",
+        description: "Sweet tangy berry burst",
+        price: 750,
+        image: [hero_img3],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: true
+    },
+    {
+        id: "aan",
+        name: "Kitkat Chocolate Cake",
+        description: "Crispy chocolate layers",
+        price: 750,
+        image: [hero_img3],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: true
+    },
+    {
+        id: "aao",
+        name: "Rasmalai Fusion Cake",
+        description: "Indian creamy fusion delight",
+        price: 750,
+        image: [hero_img3],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: true
+    },
+    {
+        id: "aao",
+        name: "Rasmalai Fusion Cake",
+        description: "Indian creamy fusion delight",
+        price: 750,
+        image: [hero_img3],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: true
+    },
+    {
+        id: "aao",
+        name: "Rasmalai Fusion Cake",
+        description: "Indian creamy fusion delight",
+        price: 750,
+        image: [hero_img3],
+        category: "Eggless",
+        subCategory: "Chocolate",
         sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
         bestseller: true
     }

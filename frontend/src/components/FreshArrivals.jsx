@@ -9,7 +9,7 @@ const FreshArrivals = () => {
 
   useEffect(() => {
    if (products?.length) {
-    setLatestProducts(products.slice(0, 10));
+    setLatestProducts(products);
   }
 }, [products]);
 

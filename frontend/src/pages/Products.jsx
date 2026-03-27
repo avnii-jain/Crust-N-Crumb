@@ -24,7 +24,7 @@ const Products = () => {
   const toggleSubcategory = (e) => {
     
     if(subCategory.includes(e.target.value)){
-      setSubCategory(prev => prev.filter(item => item != e.target.value))
+      setSubCategory(prev => prev.filter(item => item !== e.target.value))
     }else{
       setSubCategory(prev => [...prev,e.target.value])
     }
