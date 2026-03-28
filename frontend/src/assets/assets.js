@@ -4,12 +4,6 @@ import profile_icon from './profile_icon.jpg'
 import cart_icon from './cart_icon.png'
 import menu_icon from './menu_icon.png'
 import dropdown_icon from './dropdown_icon.webp'
-import hero_img from './hero_img.jpg'
-import hero_img1 from './hero_img1.jpg'
-import hero_img2 from './hero_img2.jpg'
-import hero_img3 from './hero_img3.jpg'
-import hero_img4 from './hero_img4.jpg'
-import hero_img5 from './hero_img5.webp'
 import exchange_icon from './exchange_icon.png'
 import quality_icon from './quality_icon.jpg'
 import support_img from './support_img.png'
@@ -25,6 +19,39 @@ import phonePe_logo from './phonePe_logo.png'
 import about_img from './about_img.jpg'
 import contact_img from './contact_img.jpg'
 
+import hero_img from './hero_img.jpg'
+import aa from './aa.webp'
+import ab from './ab.jpg'
+import ac from './ac.jpg'
+import ad from './ad.webp'
+import ae from './ae.webp'
+import af from "./af.avif"
+import ag from "./ag.avif"
+import ah from "./ah.jpg"
+import ai from "./ai.jpg"
+import aj from "./aj.jpg"
+import ak from "./ak.jpg"
+import al from "./al.webp"
+import am from "./am.png"
+import an from "./an.jpg"
+import ao from "./ao.png"
+import ap from "./ap.webp"
+import aq from "./aq.jpg"
+import ar from "./ar.jpg"
+import as from "./as.jpg"
+import at from "./at.png"
+import au from "./au.webp"
+import av from "./av.jpg"
+import aw from "./aw.jpg"
+import ax from "./ax.jpg"
+import ay from "./ay.jpg"
+import az from "./az.jpg"
+import ba from "./ba.webp"
+import bb from "./bb.jpg"
+import bc from "./bc.jpg"
+import bd from "./bd.webp"
+import be from "./be.jpg"
+
 const assets = {
     logo,
     search_icon,
@@ -32,12 +59,6 @@ const assets = {
     cart_icon,
     menu_icon,
     dropdown_icon,
-    hero_img,
-    hero_img1,
-    hero_img2,
-    hero_img3,
-    hero_img4,
-    hero_img5,
     exchange_icon,
     quality_icon,
     support_img,
@@ -51,196 +72,383 @@ const assets = {
     paytm_logo,
     phonePe_logo,
     about_img,
-    contact_img
+    contact_img,
+
+    hero_img,
+    aa,
+    ab,
+    ac,
+    ad,
+    ae,
+    af,
+    ag,
+    ah,
+    ai,
+    aj,
+    ak,
+    al,
+    am,
+    an,
+    ao,
+    ap,
+    aq,
+    ar,
+    as,
+    at,
+    au,
+    av,
+    aw,
+    ax,
+    ay,
+    az,
+    ba,
+    bb,
+    bc,
+    bd,
+    be
 }
 
 export const products = [
     {
-        id: "aaa",
+        id: "aa",
         name: "Chocolate Truffle Cake",
         description: "Rich chocolate indulgence",
         price: 1000,
-        image: [hero_img1],
-        category: "Eggless",
+        image: [aa],
+        category: "Egg",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
-        id: "aab",
+        id: "ab",
         name: "Strawberry Delight Cake",
         description: "Fresh fruity sweetness",
         price: 400,
-        image: [hero_img2],
-        category: "Egg",
+        image: [ab],
+        category: "Eggless",
         subCategory: "Vanilla",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: false
     },
     {
-        id: "aac",
+        id: "ac",
         name: "Classic Vanilla Cake",
         description: "Lighty creamy classic",
         price: 300,
-        image: [hero_img3],
+        image: [ac],
         category: "Eggless",
         subCategory: "Vanilla",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
-        id: "aad",
+        id: "ad",
         name: "Pineapple Cream Cake",
         description: "Tropical juicy flavor",
         price: 350,
-        image: [hero_img4],
+        image: [ad],
         category: "Eggless",
         subCategory: "Butterscotch",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: false
     },
     {
-        id: "aae",
+        id: "ae",
         name: "Red Velvet Cake",
         description: "Smooth velvety richness",
         price: 450,
-        image: [hero_img5],
+        image: [ae],
         category: "Eggless",
         subCategory: "Butterscotch",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
-        id: "aaf",
+        id: "af",
         name: "Mango Magic Cake",
         description: "Sweet mango bliss",
         price: 600,
-        image: [hero_img3],
+        image: [af],
         category: "Eggless",
         subCategory: "Butterscotch",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
-        bestseller: false
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
     },
     {
-        id: "aag",
+        id: "ag",
         name: "Choco Caramel Cake",
         description: "Gooey caramel chocolate",
         price: 550,
-        image: [hero_img3],
+        image: [ag],
         category: "Eggless",
         subCategory: "CheeseCake",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
-        id: "aah",
+        id: "ah",
         name: "ButterScotch Crunch Cake",
         description: "Crunchy sweet delight",
         price: 500,
-        image: [hero_img3],
+        image: [ah],
         category: "Eggless",
         subCategory: "CheeseCake",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
-        bestseller: false
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
     },
     {
-        id: "aai",
+        id: "ai",
         name: "Oreo Cream Cake",
         description: "Cookies creamy goodness",
         price: 700,
-        image: [hero_img3],
+        image: [ai],
         category: "Eggless",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
-        bestseller: false
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
     },
     {
-        id: "aaj",
+        id: "aj",
         name: "Ferrero Rocher Cake",
         description: "Nutty chocolate luxury",
         price: 750,
-        image: [hero_img3],
+        image: [aj],
         category: "Eggless",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
-        bestseller: true
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
     },
     {
-        id: "aak",
+        id: "ak",
         name: "Lemon Zest Cake",
         description: "Tangy citrus freshness",
         price: 750,
-        image: [hero_img3],
+        image: [ak],
         category: "Eggless",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
-        id: "aal",
+        id: "al",
         name: "Black Forest Cake",
         description: "Chocolate cherry delight",
         price: 750,
-        image: [hero_img3],
-        category: "Eggless",
+        image: [al],
+        category: "Egg",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
-        bestseller: true
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
     },
     {
-        id: "aam",
+        id: "am",
         name: "Blueberry Bliss Cake",
         description: "Sweet tangy berry burst",
         price: 750,
-        image: [hero_img3],
-        category: "Eggless",
+        image: [am],
+        category: "Egg",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
-        bestseller: true
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
     },
     {
-        id: "aan",
+        id: "an",
         name: "Kitkat Chocolate Cake",
         description: "Crispy chocolate layers",
         price: 750,
-        image: [hero_img3],
+        image: [an],
         category: "Eggless",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
-        bestseller: true
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
     },
     {
-        id: "aao",
+        id: "ao",
         name: "Rasmalai Fusion Cake",
         description: "Indian creamy fusion delight",
         price: 750,
-        image: [hero_img3],
+        image: [ao],
         category: "Eggless",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
-        id: "aao",
-        name: "Rasmalai Fusion Cake",
-        description: "Indian creamy fusion delight",
+        id: "ap",
+        name: "Coffee Mocha Cake",
+        description: "Rich coffee chocolate flavor",
         price: 750,
-        image: [hero_img3],
+        image: [ap],
+        category: "Egg",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
+    },
+    {
+        id: "aq",
+        name: "Chocolate Fudge Cake",
+        description: "Dense fudgy richness",
+        price: 750,
+        image: [aq],
+        category: "Egg",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
+    },
+    {
+        id: "ar",
+        name: "White Forest Cake",
+        description: "Light creamy cherry delight",
+        price: 750,
+        image: [ar],
         category: "Eggless",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
-        id: "aao",
-        name: "Rasmalai Fusion Cake",
-        description: "Indian creamy fusion delight",
+        id: "as",
+        name: "Paan Flavour Cake",
+        description: "Refreshing desi twist",
         price: 750,
-        image: [hero_img3],
+        image: [as],
         category: "Eggless",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
+    },
+    {
+        id: "at",
+        name: "Nutella Hazelnut Cake",
+        description: "Creamy nutty indulgence",
+        price: 750,
+        image: [at],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
+    },
+    {
+        id: "au",
+        name: "Rainbow Cake",
+        description: "Colorful fun layers",
+        price: 750,
+        image: [au],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
+    },
+    {
+        id: "av",
+        name: "Chocolate Chip Cake",
+        description: "Soft choco chip bites",
+        price: 750,
+        image: [av],
+        category: "Egg",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
+    },
+    {
+        id: "aw",
+        name: "Milk Cake (Tres Leches)",
+        description: "Soft milky sweetness",
+        price: 750,
+        image: [aw],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
+    },
+    {
+        id: "ax",
+        name: "Banana Walnut Cake",
+        description: "Moist nutty goodness",
+        price: 750,
+        image: [ax],
+        category: "Egg",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
+    },
+    {
+        id: "ay",
+        name: "Coconut Cream Cake",
+        description: "Light tropical sweetness",
+        price: 750,
+        image: [ay],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
+    },
+    {
+        id: "az",
+        name: "Dark Chocolate Cake",
+        description: "Intense cocoa flavor",
+        price: 750,
+        image: [az],
+        category: "Egg",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
+    },
+    {
+        id: "ba",
+        name: "Honey Almond Cake",
+        description: "Mild sweet nutty taste",
+        price: 750,
+        image: [ba],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
+    },
+    {
+        id: "bb",
+        name: "Gulab Jamun Cake",
+        description: "Syrupy desi indulgence",
+        price: 750,
+        image: [bb],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
+    },
+    {
+        id: "bc",
+        name: "Tiramisu Cake",
+        description: "Coffee creamy elegance",
+        price: 750,
+        image: [bc],
+        category: "Egg",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: true
+    },
+    {
+        id: "bd",
+        name: "Pistachio Cake",
+        description: "Rich nutty flavor",
+        price: 750,
+        image: [bd],
+        category: "Eggless",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        bestseller: false
+    },
+    {
+        id: "be",
+        name: "Marble Cake",
+        description: "Vanilla chocolate swirl",
+        price: 750,
+        image: [be],
+        category: "Egg",
+        subCategory: "Chocolate",
+        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg", "4kg"],
+        bestseller: false
     }
 ]
 
