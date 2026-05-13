@@ -117,7 +117,7 @@ export const products = [
         image: [aa],
         category: "Egg",
         subCategory: "Chocolate",
-        sizes: ["0.5 kg", "1 kg", "2 kg", "3kg"],
+        weights: ["0.5 kg", "1 kg", "2 kg", "3kg"],
         bestseller: true
     },
     {
